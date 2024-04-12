@@ -1,0 +1,113 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial;
+}
+
+header {
+    height: 80px;
+    padding: 0 200px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-italic {
+    color: gray;
+    font-style: italic;
+}
+.right-aligned {
+    text-align: right;
+  }
+.text-info {
+    padding-right: 3px;
+    font-size: 15px;
+    margin: 0;
+}
+.text-info p{
+    margin: 0;
+}
+.joke-title{
+    height: 250px;
+    background-color: #29b363;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-heading {
+    font-size: 30px; 
+}
+
+.title-description {
+    font-size: 15px; 
+}
+.joke-content{
+    height: 250px;
+    padding: 0 200px;
+}
+.joke-content p {
+    color: gray;
+    font-size: 15px;
+    margin: 25px 0;
+    line-height: 30px;
+}
+.divider {
+    width: 800px;
+    height: 1px;
+    background-color: rgb(212, 210, 210);
+    border: none;
+}
+.feedback {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.funny-button,
+.not-funny-button {
+    padding: 10px 45px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.funny-button {
+    background-color: #2c7edb;
+}
+
+.not-funny-button {
+    background-color: #29b363;
+}
+.divider-big{
+    height: 1px;
+    background-color: rgb(212, 210, 210);
+    border: none;
+}
+footer{
+    height: 80px;
+    padding: 0 200px;
+    background-color: #fff;
+}
+.info-website{
+    color: gray;
+    font-size: 12px;
+    margin: 25px 0;
+    line-height: 15px;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(102, 101, 101);
+}
